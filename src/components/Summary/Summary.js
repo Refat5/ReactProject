@@ -48,19 +48,20 @@ class Summary extends Component {
 
                                 </Col>
 
-
                                 <Col lg={4} md={6} sm={12}>
-                                <Card className="mt-5 text-justify" style={{ width: '15rem' }}>
-                                    
+                                <Card className="workCard">
+                                
                                     <Card.Body>
                                         <Card.Title className="cardTitle">How I Work</Card.Title>
+                                        <Card.Text>
                                         <p className="cardSubTitle"> <FontAwesomeIcon className="checkIcon" icon={faCheckCircle} /> Reqirment Gathering</p>
                                         <p className="cardSubTitle">  <FontAwesomeIcon className="checkIcon" icon={faCheckCircle} /> System Analysis</p>
                                         <p className="cardSubTitle">  <FontAwesomeIcon className="checkIcon" icon={faCheckCircle} /> Coding Testing</p>
                                         <p className="cardSubTitle">  <FontAwesomeIcon className="checkIcon" icon={faCheckCircle} /> Implementation</p>
 
-                                       
+                                        </Card.Text>
                                     </Card.Body>
+                                
                                     </Card>
 
                                 </Col>

@@ -5,7 +5,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 
  }
  .topBannerOverlay{
@@ -60,9 +60,9 @@
     box-shadow: 0 0 9px 0 rgba(0, 115, 230, 0.2);
 }
 .img{
-    
+
     height: 8rem;
-    
+
     margin-bottom: 22px;
 }
 .navTitle{
@@ -123,7 +123,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 
  }
  .SummaryOverlay{
@@ -170,15 +170,22 @@
  .checkIcon{
      color: green;
      font-size: 15px;
-     
+
  }
+ .workCard {
+     text-align: justify;
+     width: auto;
+    margin-top: 14%;
+    padding: 10px 10px 10px 10px;
+    border-radius: 2px;
+}
  .RecentProjectCard{
-    
+
         border-radius: 2px;
         border: none!important;
         margin: 2px;
         box-shadow: 0 0 4px 0 rgba(0,115,230,.2);
-    
+
  }
  .RecentProjectTitle{
 
@@ -213,13 +220,14 @@
     font-family: Montserreat,sans-serif;
     font-size: 18px;
     font-weight: 600;
-} 
+}
 .courseDetails {
     font-family: Raleway,sans-serif;
 }
 .courseDetails, .courseDetails:hover {
     text-decoration: none;
 }
+
 .courseDetails {
     color: #0073e6;
     font-size: 18px;
@@ -233,4 +241,27 @@
     font-family: 'Montserreat',sans-serif;
     font-size: 29px;
     font-weight: 600;
+}
+.videoCard{
+    box-shadow: 0 0 4px 0 rgba(0, 115, 230, 0.2);
+    padding: 6rem 3rem 6rem 3rem;
+    background-color: #ffffff;
+    margin: 50px auto;
+}
+.playIcon{
+    color: red;
+    font-size: 48px;
+    cursor: pointer;
+
+}
+.videoTitle {
+    color: red;
+    font-family: Montserreat,sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+}
+.videoDes {
+    font-family: Raleway,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
 }
