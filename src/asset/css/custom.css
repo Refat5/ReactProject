@@ -234,3 +234,15 @@
     font-size: 29px;
     font-weight: 600;
 }
+.videoTitle{
+        font-size: x-large;
+    font-weight: 600;
+    font-style: inherit;
+    color: #f91818;
+
+}
+.playIcon{
+    color: #f91818;
+    cursor: pointer;
+    font-size: 30px;
+}
