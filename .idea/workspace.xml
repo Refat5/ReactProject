@@ -19,16 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87d72412-5703-4e99-9a4a-9a561e0b0941" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/my-app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app@0.1.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-scripts" afterDir="false" />
-    </list>
+    <list default="true" id="87d72412-5703-4e99-9a4a-9a561e0b0941" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,7 +61,7 @@
       <workItem from="1597075650301" duration="1171000" />
       <workItem from="1597077728225" duration="1558000" />
       <workItem from="1597079625784" duration="1548000" />
-      <workItem from="1597088266119" duration="578000" />
+      <workItem from="1597088266119" duration="1103000" />
     </task>
     <servers />
   </component>
