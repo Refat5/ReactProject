@@ -2,7 +2,8 @@ import React,{Component,Fragment} from 'react';
 import {Col,Container,Row,Modal,Button} from "react-bootstrap";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faPlayCircle } from '@fortawesome/free-solid-svg-icons';
-
+import "video-react/dist/video-react.css";
+import {Player,BigPlayButton} from 'video-react'
 
 
 class Video extends Component {
@@ -32,13 +33,16 @@ class Video extends Component {
             </Col>
             </Row>
             </Container>
-                <Modal show={this.state.show} onHide={this.modalClose}>
-                    <Modal.Header closeButton>
-                        <Modal.Title>Modal heading</Modal.Title>
-                    </Modal.Header>
-                    <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
+                <Modal size="lg" show={this.state.show} onHide={this.modalClose}>
+                    
+                    <Modal.Body>
+                      <Player>
+                           <source src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4" />
+                           <BigPlayButton position="center" />
+                      </Player>
+                    </Modal.Body>
                     <Modal.Footer>
-                        <Button variant="secondary" onClick={this.modalClose}>
+                        <Button variant="primary" onClick={this.modalClose}>
                             Close
                         </Button>
 
