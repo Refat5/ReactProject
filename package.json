@@ -16,6 +16,7 @@
     "react-slick": "^0.27.8",
     "react-visibility-sensor": "^5.1.1",
     "recharts": "^1.8.5",
+    "slick-carousel": "^1.8.1",
     "video-react": "^0.14.1"
   },
   "scripts": {

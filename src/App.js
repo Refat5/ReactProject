@@ -6,8 +6,8 @@ import Analysis from './components/Analysis/Analysis';
 import Summary from './components/Summary/Summary';
 import RecentProject from './components/RecentProject/RecentProject';
 import Cources from './components/Cources/Cources';
-import Video from './components/video/Video'
-
+import Video from './components/video/Video';
+import ClientReview from './components/ClientReview/ClientReview'
 
 
 
@@ -23,6 +23,7 @@ function App() {
       <RecentProject/>
       <Cources/>
       <Video/>
+      <ClientReview/>
 
 
 
