@@ -10,7 +10,7 @@ class ClientReview extends Component {
             autoplaySpeed:2000,
             autoplay:true,
             dots: true,
-            infinite: false,
+            infinite: true,
             speed: 2000,
             slidesToShow: 1,
             slidesToScroll: 1,
