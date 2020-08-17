@@ -49,6 +49,11 @@ class Footer extends Component{
                     </Row>
 
                 </Container>
+
+                <Container fluid={true} className="text-center footerEnd">
+                    <a href="#" className="footerEndP">Refat@copyright 2020-2021</a>
+
+                </Container>
                 </Fragment>
         );
        }
