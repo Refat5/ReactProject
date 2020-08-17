@@ -13,12 +13,14 @@ class TopNave extends Component {
             naveBarTitel:"navTitle",
             navBarLogo:[afterScroll],
             navBack:"navBackground",
+            navVariant:"dark",
             navItem:"navItem"
         }
     }
     onScroll=()=>{
         if(window.scrollY>100){
             this.setState({
+                navVariant:'light',
                 naveBarTitel:'navTitleScroll',
                 navBack:'navBackgroundScroll',
                 navBarLogo:[beforeScroll],
@@ -28,6 +30,7 @@ class TopNave extends Component {
         }
         else if (window.scrollY<100){
             this.setState({
+             navVariant:'dark',
              naveBarTitel:'navTitle',
              navBack:'navBackground',
              navBarLogo:[afterScroll],
@@ -44,7 +47,7 @@ class TopNave extends Component {
   render(){
       return (
           <Fragment>
-             <Navbar fixed="top" className={this.state.navBack} collapseOnSelect expand="lg"  variant="dark">
+             <Navbar fixed="top" variant={this.state.navVariant} className={this.state.navBack} collapseOnSelect expand="lg"  >
   <Navbar.Brand className={this.state.naveBarTitel} href="#home"><img className="navImg" src={this.state.navBarLogo}/>Abdur Rahim</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">

@@ -49,7 +49,7 @@ class Summary extends Component {
                                 </Col>
 
                                 <Col lg={4} md={6} sm={12}>
-                                <Card className="workCard">
+                                <Card className="workCard" lg={4} md={6} sm={12}>
                                 
                                     <Card.Body>
                                         <Card.Title className="cardTitle">How I Work</Card.Title>
