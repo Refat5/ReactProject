@@ -7,7 +7,8 @@ import Summary from './components/Summary/Summary';
 import RecentProject from './components/RecentProject/RecentProject';
 import Cources from './components/Cources/Cources';
 import Video from './components/video/Video';
-import ClientReview from './components/ClientReview/ClientReview'
+import ClientReview from './components/ClientReview/ClientReview';
+import Footer from './components/Footer/Footer'
 
 
 
@@ -24,6 +25,7 @@ function App() {
       <Cources/>
       <Video/>
       <ClientReview/>
+      <Footer/>
 
 
 

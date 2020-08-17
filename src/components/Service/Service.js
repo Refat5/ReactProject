@@ -20,7 +20,7 @@ class Service extends Component{
                         <Col lg={4} md={6} sm={12}>
                         <div className="serviceCard text-center">
                             <img   className="img" src={computer}/>
-                            <h2 className="serviceName">Web Development</h2>
+                            <h4 className="serviceName">Web Development</h4>
                             <p className="servicDescription" >I design and develop static and dynamic I am not a good developer but i try to be a good developer </p>
                         </div>
                         </Col>
@@ -28,7 +28,7 @@ class Service extends Component{
                         <Col lg={4} md={6} sm={12}>
                         <div className="serviceCard text-center ">
                             <img className="img" src={mobile}/>
-                            <h2 className="serviceName">Mobile</h2>
+                            <h4 className="serviceName">Mobile</h4>
                             <p className="servicDescription">I design and develop static and dynamic I am not a good developer but i try to be a good developer </p>
                         </div>
                         </Col>
@@ -36,7 +36,7 @@ class Service extends Component{
                         <Col lg={4} md={6} sm={12}>
                         <div className="serviceCard text-center">
                             <img  className="img" src={graphics}/>
-                            <h2 className="serviceName">Graphics</h2>
+                            <h4 className="serviceName">Graphics</h4>
                             <p className="servicDescription">I design and develop static and dynamic I am not a good developer but i try to be a good developer </p>
                         </div>
                         </Col>
