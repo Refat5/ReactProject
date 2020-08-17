@@ -40,9 +40,9 @@
 }
 .servicName{
     margin-top: 1rem;
-    font-family: 'Raleway',sans-serif;
+    font-family: Raleway,sans-serif;
     font-size: 22px;
-    font-weight: 500;
+    font-weight: 600;
 }
 .servicDescription{
     margin-top: 1rem;
@@ -277,5 +277,10 @@
   border-radius: 50%;
   border: 1px solid 
 
+
+}
+.footerBox{
+    margin-top: 5rem;
+    box-shadow: 0 0 4px 0 rgba(0, 115, 230, 0.2);
 
 }
