@@ -217,7 +217,7 @@
     width: 100%;
 }
 .courseTitle {
-    font-family: Montserreat,sans-serif;
+    font-family: 'Montserreat',sans-serif;
     font-size: 18px;
     font-weight: 600;
 }
@@ -313,4 +313,22 @@
     color: rgb(148, 138, 138);
     font-size: 14px;
     font-weight: 400;
+}
+.footerEnd{
+    padding: 20px 20px 20px 20px;
+    background-color: #b0b5cc;
+}
+.footerEndP{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 400px;
+    font-style:'Montserreat',sans-serif ;
+
+}
+.footerEndP:hover{
+    text-decoration: none;
+    color: #f91818;
+    
+    
 }
