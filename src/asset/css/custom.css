@@ -330,4 +330,27 @@
     color: #f91818;
     
     
-}
+
+} 
+.topPageBanner{
+        background-image: url("../images/pageBack.jpeg");
+        min-height: 300px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    
+     }
+.topPageOverlay{
+        position: absolute;
+        min-height: 300px;
+        width: 100%;
+        background: rgba(0,0,0,0.6);
+    }
+ .pageTitle{
+        font-family: 'Montserreat',sans-serif;
+        font-weight: 700;
+        color: #ffffff;
+        font-size: 25px;
+    }

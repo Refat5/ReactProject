@@ -1,6 +1,8 @@
 import React from 'react';
 
 import Home from './pages/Home';
+import PageTop from './components/PageTop/PageTop';
+import TopNave from './components/TopNave/TopNave';
 
 
 
@@ -9,8 +11,8 @@ function App() {
   return (
     <div>
    
-      <Home/>
-
+      <TopNave/>
+      <PageTop pageTitle="About Me"/>
 
 
 
