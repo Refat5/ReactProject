@@ -107,10 +107,10 @@
     text-decoration: none;
     font-family: 'Montserreat',sans-serif;
     font-weight: 400;
-    color: #000000 !important;
+    color: #080707 !important;
 }
 .Tdes{
-    color: black;
+    color: rgb(22, 18, 18);
     font-family: 'Montserreat',sans-serif;
 }
 
@@ -292,7 +292,7 @@
 }
 .socialink:hover{
     text-decoration: none;
-    color: black;
+    color: rgb(22, 20, 20);
  
 }
 .footerLink{
@@ -319,7 +319,7 @@
 }
 .footerEndP{
     text-decoration: none;
-    color: black;
+    color: rgb(14, 11, 11);
     font-size: 14px;
     font-weight: 400px;
     font-style:'Montserreat',sans-serif ;
@@ -353,4 +353,15 @@
         font-weight: 700;
         color: #ffffff;
         font-size: 25px;
+    }
+
+    .form-control:focus{
+        border-radius: 2px !important;
+        border-color: #1a2f99 !important;
+        box-shadow: 0 0 4px 0 rgba(0, 115, 230, 0.2) !important;
+        
+    }
+    .addressp{
+        color: rgb(22, 18, 18);
+        font-family: 'Raleway',sans-serif;
     }
