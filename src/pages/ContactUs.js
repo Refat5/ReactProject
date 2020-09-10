@@ -9,13 +9,13 @@ class ContactUs extends Component {
     render(){
         return(
             <Fragment>
-                <TopNave/>
+                <TopNave title="contact"/>
                 <PageTop pageTitle="Contact  us"/>   
                 <Contact/>
                 <Footer/>
 
             </Fragment>
-
+ 
         );
     }
 }

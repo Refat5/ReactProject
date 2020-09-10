@@ -9,13 +9,13 @@ class About extends Component {
     render(){
         return(
             <Fragment>
-            <TopNave/>
+            <TopNave title="course"/>
             <PageTop pageTitle="All Courses"/>   
              <AllCourse/>
              <Footer/>
 
             </Fragment>
-
+ 
         );
     }
 }
