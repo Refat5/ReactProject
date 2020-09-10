@@ -1,18 +1,17 @@
 import React from 'react';
-
-import Home from './pages/Home';
-import PageTop from './components/PageTop/PageTop';
-import TopNave from './components/TopNave/TopNave';
-
-
-
+import {BrowserRouter} from "react-router-dom"
+import ServicePage from './pages/ServicePage';
+import AppROuter from './router/AppROuter';
 
 function App() {
   return (
     <div>
-   
-      <TopNave/>
-      <PageTop pageTitle="About Me"/>
+     
+    <BrowserRouter>
+      <AppROuter/>
+    </BrowserRouter>
+
+      
 
 
 

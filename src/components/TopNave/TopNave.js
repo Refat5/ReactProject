@@ -4,6 +4,7 @@ import'../../asset/css/bootstrap.min.css'
 import {Nav, NavDropdown,Navbar} from "react-bootstrap";
 import afterScroll from '../../asset/images/afterScroll.png'
 import beforeScroll from '../../asset/images/beforeScroll.png'
+import {NavLink} from "react-router-dom";
 
 
 class TopNave extends Component {
@@ -55,12 +56,12 @@ class TopNave extends Component {
     
     </Nav>
     <Nav >
-      <Nav.Link className={this.state.navItem} href="#deets">HOME</Nav.Link>
-      <Nav.Link className={this.state.navItem} href="#deets">SERVICES</Nav.Link>
-      <Nav.Link className={this.state.navItem} href="#deets">COURSES</Nav.Link>
-      <Nav.Link className={this.state.navItem} href="#deets">PORFOLIO</Nav.Link>
-      <Nav.Link className={this.state.navItem} href="#deets">CONTSCT</Nav.Link>
-      <Nav.Link className={this.state.navItem} href="#deets">ABOUT</Nav.Link>
+      <NavLink className={this.state.navItem} to="/">HOME</NavLink> 
+       <NavLink className={this.state.navItem} to="service">SERVICES</NavLink>
+       <NavLink className={this.state.navItem} to="course">COURSES</NavLink>
+       <NavLink className={this.state.navItem} to="portfolio">PORFOLIO</NavLink>
+       <NavLink className={this.state.navItem} to="contact">CONTSCT</NavLink>
+       <NavLink className={this.state.navItem} to="about">ABOUT</NavLink>
 
      
     </Nav>
