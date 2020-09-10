@@ -1,15 +1,16 @@
 import React from 'react';
-
-
-import ContactUs from './pages/ContactUs';
-
-
+import {BrowserRouter} from "react-router-dom"
+import ServicePage from './pages/ServicePage';
+import AppROuter from './router/AppROuter';
 
 function App() {
   return (
     <div>
-   
-      <ContactUs/>
+     
+    <BrowserRouter>
+      <AppROuter/>
+    </BrowserRouter>
+
       
 
 

@@ -10,7 +10,7 @@ class ContactUs extends Component {
         return(
             <Fragment>
                 <TopNave/>
-                <PageTop pageTitle="Contact us"/>   
+                <PageTop pageTitle="Contact  us"/>   
                 <Contact/>
                 <Footer/>
 
