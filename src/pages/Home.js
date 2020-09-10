@@ -15,10 +15,10 @@ class Home extends Component {
     render(){
         return(
             <Fragment>
-                 <TopNave/>
+                 <TopNave title="home"/>
       <TopBanner/>
       <Service/>
-      <Analysis/>
+      <Analysis/> 
       <Summary/>
       <RecentProject/>
       <Cources/>

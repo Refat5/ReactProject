@@ -8,11 +8,11 @@ class About extends Component {
     render(){
         return(
             <Fragment>
-            <TopNave/>
+            <TopNave title="about"/>
             <PageTop pageTitle="About Me"/>   
              <AboutDescription/>
              <Footer/>
-
+ 
             </Fragment>
 
         );

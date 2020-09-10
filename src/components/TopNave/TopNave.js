@@ -8,14 +8,15 @@ import {NavLink} from "react-router-dom";
 
 
 class TopNave extends Component {
-    constructor(){
+    constructor(props){
         super();
         this.state={
             naveBarTitel:"navTitle",
             navBarLogo:[afterScroll],
             navBack:"navBackground",
             navVariant:"dark",
-            navItem:"navItem"
+            navItem:"navItem",
+            pageTitle:props.title
         }
     }
     onScroll=()=>{
@@ -48,7 +49,8 @@ class TopNave extends Component {
   render(){
       return (
           <Fragment>
-             <Navbar fixed="top" variant={this.state.navVariant} className={this.state.navBack} collapseOnSelect expand="lg"  >
+              <title>{this.state.pageTitle}</title>
+  <Navbar fixed="top" variant={this.state.navVariant} className={this.state.navBack} collapseOnSelect expand="lg"  >
   <Navbar.Brand className={this.state.naveBarTitel} href="#home"><img className="navImg" src={this.state.navBarLogo}/>Abdur Rahim</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
@@ -56,12 +58,13 @@ class TopNave extends Component {
     
     </Nav>
     <Nav >
-      <NavLink className={this.state.navItem} to="/">HOME</NavLink> 
-       <NavLink className={this.state.navItem} to="service">SERVICES</NavLink>
-       <NavLink className={this.state.navItem} to="course">COURSES</NavLink>
-       <NavLink className={this.state.navItem} to="portfolio">PORFOLIO</NavLink>
-       <NavLink className={this.state.navItem} to="contact">CONTSCT</NavLink>
-       <NavLink className={this.state.navItem} to="about">ABOUT</NavLink>
+
+       <Nav.Link>  <NavLink className={this.state.navItem} to="/">HOME</NavLink>  </Nav.Link>
+       <Nav.Link> <NavLink className={this.state.navItem} to="service">SERVICES</NavLink> </Nav.Link>  
+       <Nav.Link> <NavLink className={this.state.navItem} to="course">COURSES</NavLink> </Nav.Link> 
+       <Nav.Link> <NavLink className={this.state.navItem} to="portfolio">PORFOLIO</NavLink> </Nav.Link> 
+       <Nav.Link> <NavLink className={this.state.navItem} to="contact">CONTSCT</NavLink> </Nav.Link> 
+       <Nav.Link> <NavLink className={this.state.navItem} to="about">ABOUT</NavLink> </Nav.Link> 
 
      
     </Nav>

@@ -10,7 +10,7 @@ class ServicePage extends Component{
     render(){
         return(
             <Fragment>
-                <TopNave/>
+                <TopNave title="service"/>
                 <PageTop pageTitle="My Services"/>
                 <Service/>
                 <Contact/>
@@ -18,7 +18,7 @@ class ServicePage extends Component{
 
 
             </Fragment>
-
+ 
         );
     }
 }

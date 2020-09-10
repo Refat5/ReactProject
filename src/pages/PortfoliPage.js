@@ -9,11 +9,11 @@ class PortfoliPage extends Component {
     render(){
         return(
             <Fragment>
-                <TopNave/>
+                <TopNave title="portfolio"/>
                 <PageTop pageTitle="All Project"/>   
                 <AllProject/>
                 <Footer/>
-
+ 
             </Fragment>
 
         );
