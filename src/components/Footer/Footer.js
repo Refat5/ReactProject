@@ -39,17 +39,17 @@ class Footer extends Component {
 
                         <Col lg={3} md={6} sm={12} className="p-5 text-justify">
                             <h4 className="serviceName">Information</h4>
-                            <a href="#" className="footerLink">
+                            <Link to="/about" className="footerLink">
                                 About Me
-                            </a>
+                            </Link>
                             <br />
-                            <a href="#" className="footerLink">
+                            <Link to="/portfolio" className="footerLink">
                                 My Resume
-                            </a>
+                            </Link>
                             <br />
-                            <a href="#" className="footerLink">
+                            <Link to="/contact" className="footerLink">
                                 Contact Me
-                            </a>
+                            </Link>
                         </Col>
 
                         <Col lg={3} md={6} sm={12} className="p-5 text-justify">
@@ -63,9 +63,9 @@ class Footer extends Component {
                                 Terms And Condition
                             </Link>
                             <br />
-                            <a href="#" className="footerLink">
+                            <Link to="/privacy" className="footerLink">
                                 Privacy Policy
-                            </a>
+                            </Link>
                         </Col>
                     </Row>
                 </Container>

@@ -1,13 +1,17 @@
 import React, { Component, Fragment } from 'react';
 import { Route, Switch } from 'react-router-dom';
-import Home from '../pages/Home';
-import ServicePage from '../pages/ServicePage';
-import Contact from '../pages/ContactUs';
-import AllCourse from '../pages/AllCourse';
+
 import About from '../pages/About';
+import AllCourse from '../pages/AllCourse';
+import Contact from '../pages/ContactUs';
+import Home from '../pages/Home';
 import Portfolio from '../pages/PortfoliPage';
+import Privacy from '../pages/Privacy';
+import Project from '../pages/Project';
 import Refund from '../pages/Refund';
+import ServicePage from '../pages/ServicePage';
 import Terms from '../pages/Terms';
+
 class AppROuter extends Component {
     render() {
         return (
@@ -21,6 +25,8 @@ class AppROuter extends Component {
                     <Route exact path="/about" component={About} />
                     <Route exact path="/refund" component={Refund} />
                     <Route exact path="/terms" component={Terms} />
+                    <Route exact path="/privacy" component={Privacy} />
+                    <Route exact path="/Project" component={Project} />
                 </Switch>
             </Fragment>
         );
