@@ -9,27 +9,27 @@ class RefundSection extends Component {
                     <Row>
                         <Col sm={12} lg={12} md={12}>
                             <ul>
-                                <li>I design and develop static and dynamic I</li>
-                                <li>
+                                <li className="mt-2">I design and develop static and dynamic I</li>
+                                <li className="mt-2">
                                     Lorem ipsum, or lipsum as it is sometimes known, is dummy text
                                     used in laying out print, graphic or web designs.
                                 </li>
-                                <li>I design and develop static and dynamic I</li>
-                                <li>
+                                <li className="mt-2">I design and develop static and dynamic I</li>
+                                <li className="mt-2">
                                     Lorem ipsum, or lipsum as it is sometimes known, is dummy text
                                     used in laying out print, graphic or web designs.Lorem ipsum, or
                                     lipsum as it is sometimes known, is dummy text used in laying
                                     out print, graphic or web designs.I design and develop static
                                     and dynamic I
                                 </li>
-                                <li>
+                                <li className="mt-2">
                                     Lorem ipsum, or lipsum as it is sometimes known, is dummy text
                                     used in laying out print, graphic or web designs.Lorem ipsum, or
                                     lipsum as it is sometimes known, is dummy text used in laying
                                     out print, graphic or web designs.I design and develop static
                                     and dynamic I
                                 </li>
-                                <li>
+                                <li className="mt-2">
                                     Lorem ipsum, or lipsum as it is sometimes known, is dummy text
                                     used in laying out print, graphic or web designs.Lorem ipsum, or
                                     lipsum as it is sometimes known, is dummy text used in laying

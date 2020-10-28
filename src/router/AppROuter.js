@@ -7,6 +7,7 @@ import AllCourse from '../pages/AllCourse';
 import About from '../pages/About';
 import Portfolio from '../pages/PortfoliPage';
 import Refund from '../pages/Refund';
+import Terms from '../pages/Terms';
 class AppROuter extends Component {
     render() {
         return (
@@ -19,6 +20,7 @@ class AppROuter extends Component {
                     <Route exact path="/contact" component={Contact} />
                     <Route exact path="/about" component={About} />
                     <Route exact path="/refund" component={Refund} />
+                    <Route exact path="/terms" component={Terms} />
                 </Switch>
             </Fragment>
         );
