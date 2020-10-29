@@ -1,10 +1,14 @@
 import React, { Component, Fragment } from 'react';
-import TermsSection from '../components/TermsSection/TermsSection';
+
 import Footer from '../components/Footer/Footer';
 import PageTop from '../components/PageTop/PageTop';
+import TermsSection from '../components/TermsSection/TermsSection';
 import TopNave from '../components/TopNave/TopNave';
 
 class Terms extends Component {
+    componentDidMount() {
+        window.scroll(0, 0);
+    }
     render() {
         return (
             <Fragment>
