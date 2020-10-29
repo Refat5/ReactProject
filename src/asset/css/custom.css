@@ -98,17 +98,25 @@
     margin-bottom: 22px;
 }
 .navTitle{
+    text-decoration: none;
     font-family:'Montserreat',sans-serif;
     color: #ffffff !important;
     font-weight: 700;
     font-size: 25px;
 }
+.navTitle:hover{
+    text-decoration: none;
+}
 
 .navTitleScroll{
+    text-decoration: none;
     font-family:'Montserreat',sans-serif;
     color: #0a1133 !important;
     font-weight: 700;
     font-size: 25px;
+}
+.navTitleScroll:hover{
+    text-decoration: none;
 }
 .navImg{
     height: 4rem;
@@ -126,6 +134,7 @@
     -webkit-transition:  background-color 600ms linear;
     transition: background-color 600ms linear;
     background-color: #ffffff !important;
+    box-shadow: 0 0 6px 0 rgb(60, 60, 63);
 }
 .navItem{
     font-size: 16px;

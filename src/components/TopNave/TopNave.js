@@ -1,10 +1,12 @@
-import React, { Component, Fragment } from 'react';
 import '../../asset/css/custom.css';
 import '../../asset/css/bootstrap.min.css';
+
 import { Nav, NavDropdown, Navbar } from 'react-bootstrap';
+import React, { Component, Fragment } from 'react';
+
+import { NavLink } from 'react-router-dom';
 import afterScroll from '../../asset/images/afterScroll.png';
 import beforeScroll from '../../asset/images/beforeScroll.png';
-import { NavLink } from 'react-router-dom';
 
 class TopNave extends Component {
     constructor(props) {
@@ -52,9 +54,11 @@ class TopNave extends Component {
                     className={this.state.navBack}
                     collapseOnSelect
                     expand="lg">
-                    <Navbar.Brand className={this.state.naveBarTitel} href="#home">
-                        <img className="navImg" src={this.state.navBarLogo} />
-                        Abdur Rahim
+                    <Navbar.Brand>
+                        <NavLink to="/" className={this.state.naveBarTitel}>
+                            <img className="navImg" src={this.state.navBarLogo} />
+                            Abdur Rahim
+                        </NavLink>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
