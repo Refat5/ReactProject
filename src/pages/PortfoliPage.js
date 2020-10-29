@@ -1,21 +1,22 @@
-import React,{Component,Fragment} from 'react';
+import React, { Component, Fragment } from 'react';
 
+import AllProject from '../components/AllProject/AllProject';
 import Footer from '../components/Footer/Footer';
 import PageTop from '../components/PageTop/PageTop';
 import TopNave from '../components/TopNave/TopNave';
-import AllProject from '../components/AllProject/AllProject';
 
 class PortfoliPage extends Component {
-    render(){
-        return(
+    componentDidMount() {
+        window.scroll(0, 0);
+    }
+    render() {
+        return (
             <Fragment>
-                <TopNave title="portfolio"/>
-                <PageTop pageTitle="All Project"/>   
-                <AllProject/>
-                <Footer/>
- 
+                <TopNave title="portfolio" />
+                <PageTop pageTitle="All Project" />
+                <AllProject />
+                <Footer />
             </Fragment>
-
         );
     }
 }
