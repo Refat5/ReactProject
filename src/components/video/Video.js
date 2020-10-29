@@ -1,16 +1,17 @@
-import React,{Component,Fragment} from 'react';
-import {Col,Container,Row,Modal,Button} from "react-bootstrap";
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faPlayCircle } from '@fortawesome/free-solid-svg-icons';
 import "video-react/dist/video-react.css";
-import {Player,BigPlayButton} from 'video-react'
 
+import {BigPlayButton, Player} from 'video-react'
+import {Button, Col, Container, Modal, Row} from "react-bootstrap";
+import React,{Component, Fragment} from 'react';
+
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faPlayCircle} from '@fortawesome/free-solid-svg-icons';
 
 class Video extends Component {
 
     constructor(){
         super();
-        this.state={
+        this.state={ 
             show:false
         }
     }
