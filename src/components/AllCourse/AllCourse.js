@@ -22,7 +22,7 @@ class AllCourse extends Component {
                                     <h5 class="text-justify courseTitle">Mobile Development</h5>
                                     <p class="text-justify courseDes">
                                         I build native and cross platfrom mobile app for your
-                                        business app for your business
+                                        business app for your business and Technology
                                     </p>
                                     <Link class="courseDetails float-left" to="/courseDetails">
                                         Details
